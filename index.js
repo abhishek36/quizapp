@@ -7,11 +7,11 @@ console.log("write answer to each question presented to you")
 
 var que1 = {
     que: "Where Do i Live ? ",
-    ans: "Bhiwapur"
+    ans: "Nagpur"
 }
 var que2 = {
-    que: "Which is my fav car ? ",
-    ans: "Lamborghini"
+    que: "Which is my fav player ? ",
+    ans: "virat"
 }
 var que3 = {
     que: "Which is my fav dish ? ",
@@ -19,7 +19,7 @@ var que3 = {
 }
 var que4 = {
     que: "Which is my fav color ? ",
-    ans: "Orange"
+    ans: "blue"
 }
 
 
@@ -43,4 +43,3 @@ questions.forEach((q) => {
 })
 
 console.log("Final Score is " + score);
-console.log("-------------------");
